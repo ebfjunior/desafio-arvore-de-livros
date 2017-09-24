@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente Anual Deve renderizar adequadamente 1`] = `
+<Anual
+  data_inicial="2016-12-03"
+  periodos={
+    Object {
+      "1978-10-10": 14,
+      "2016-10-12": 1,
+      "2016-12-03": 38,
+    }
+  }
+>
+  <span>
+    Hello, Árvore de Livros
+  </span>
+</Anual>
+`;
