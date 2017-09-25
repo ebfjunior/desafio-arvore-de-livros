@@ -11,7 +11,7 @@ describe('Componente Gráfico', () => {
 
   it('State Períodos deve ser inicializado corretamente', () => {
     const wrapper = mount(<Grafico/>);
-    expect(Object.keys(wrapper.state().periodos).length).toEqual(175);
+    expect(Object.keys(wrapper.state().periodos.processados).length).toEqual(175);
   });
 
   it('State Data Final deve ser inicializado corretamente', () => {
