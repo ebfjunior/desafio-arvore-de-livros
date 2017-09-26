@@ -48,4 +48,31 @@ export default class Periodos{
 
     return totalSemanas;
   }
+
+  static getMesesDoPeriodo(data_inicial, data_final){
+    const firstDate = new Date(data_inicial);
+    const lastDate = new Date(data_final);
+
+    let currentYear = firstDate.getFullYear();
+    let currentMonth = firstDate.getMonth() + 1;
+
+    let meses = {};
+
+    while(true){
+      meses[currentYear] = meses[currentYear] || [];
+      meses[currentYear].push(currentMonth);
+
+      if(currentYear == lastDate.getFullYear() && currentMonth == lastDate.getMonth() + 1) break;
+
+      if(currentMonth == 12){
+         currentMonth = 1;
+         currentYear++; 
+      }else{
+        currentMonth++;
+      }
+
+    }
+
+    return meses;
+  }
 }

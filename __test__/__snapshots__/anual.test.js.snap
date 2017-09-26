@@ -8,11 +8,17 @@ exports[`Componente Anual Deve renderizar adequadamente 1`] = `
     Object {
       "2016": Object {
         "10": Object {
-          "2016-10-12": 1,
-          "2016-10-23": 38,
+          "3": Object {
+            "2016-10-12": 1,
+          },
+          "4": Object {
+            "2016-10-23": 38,
+          },
         },
         "12": Object {
-          "2016-12-02": 17,
+          "1": Object {
+            "2016-12-02": 17,
+          },
         },
       },
       "2017": Object {
@@ -23,6 +29,861 @@ exports[`Componente Anual Deve renderizar adequadamente 1`] = `
     }
   }
 >
-  <div />
+  <div>
+    <Mensal
+      ano="2016"
+      key="20169"
+      mes={9}
+      periodosMes={Object {}}
+    >
+      <div>
+        <Semanal
+          ano="2016"
+          key="201691"
+          mes={9}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="201692"
+          mes={9}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="201693"
+          mes={9}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="201694"
+          mes={9}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="201695"
+          mes={9}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="201696"
+          mes={9}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+      </div>
+    </Mensal>
+    <Mensal
+      ano="2016"
+      key="201610"
+      mes={10}
+      periodosMes={
+        Object {
+          "3": Object {
+            "2016-10-12": 1,
+          },
+          "4": Object {
+            "2016-10-23": 38,
+          },
+        }
+      }
+    >
+      <div>
+        <Semanal
+          ano="2016"
+          key="2016101"
+          mes={10}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="2016102"
+          mes={10}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="2016103"
+          mes={10}
+          periodosSemana={
+            Object {
+              "2016-10-12": 1,
+            }
+          }
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="2016104"
+          mes={10}
+          periodosSemana={
+            Object {
+              "2016-10-23": 38,
+            }
+          }
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="2016105"
+          mes={10}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="2016106"
+          mes={10}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+      </div>
+    </Mensal>
+    <Mensal
+      ano="2016"
+      key="201611"
+      mes={11}
+      periodosMes={Object {}}
+    >
+      <div>
+        <Semanal
+          ano="2016"
+          key="2016111"
+          mes={11}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="2016112"
+          mes={11}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="2016113"
+          mes={11}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="2016114"
+          mes={11}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="2016115"
+          mes={11}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+      </div>
+    </Mensal>
+    <Mensal
+      ano="2016"
+      key="201612"
+      mes={12}
+      periodosMes={
+        Object {
+          "1": Object {
+            "2016-12-02": 17,
+          },
+        }
+      }
+    >
+      <div>
+        <Semanal
+          ano="2016"
+          key="2016121"
+          mes={12}
+          periodosSemana={
+            Object {
+              "2016-12-02": 17,
+            }
+          }
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="2016122"
+          mes={12}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="2016123"
+          mes={12}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="2016124"
+          mes={12}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2016"
+          key="2016125"
+          mes={12}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+      </div>
+    </Mensal>
+    <Mensal
+      ano="2017"
+      key="20171"
+      mes={1}
+      periodosMes={Object {}}
+    >
+      <div>
+        <Semanal
+          ano="2017"
+          key="201711"
+          mes={1}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201712"
+          mes={1}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201713"
+          mes={1}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201714"
+          mes={1}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201715"
+          mes={1}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+      </div>
+    </Mensal>
+    <Mensal
+      ano="2017"
+      key="20172"
+      mes={2}
+      periodosMes={Object {}}
+    >
+      <div>
+        <Semanal
+          ano="2017"
+          key="201721"
+          mes={2}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201722"
+          mes={2}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201723"
+          mes={2}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201724"
+          mes={2}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201725"
+          mes={2}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+      </div>
+    </Mensal>
+    <Mensal
+      ano="2017"
+      key="20173"
+      mes={3}
+      periodosMes={Object {}}
+    >
+      <div>
+        <Semanal
+          ano="2017"
+          key="201731"
+          mes={3}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201732"
+          mes={3}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201733"
+          mes={3}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201734"
+          mes={3}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201735"
+          mes={3}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+      </div>
+    </Mensal>
+    <Mensal
+      ano="2017"
+      key="20174"
+      mes={4}
+      periodosMes={Object {}}
+    >
+      <div>
+        <Semanal
+          ano="2017"
+          key="201741"
+          mes={4}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201742"
+          mes={4}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201743"
+          mes={4}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201744"
+          mes={4}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201745"
+          mes={4}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201746"
+          mes={4}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+      </div>
+    </Mensal>
+    <Mensal
+      ano="2017"
+      key="20175"
+      mes={5}
+      periodosMes={Object {}}
+    >
+      <div>
+        <Semanal
+          ano="2017"
+          key="201751"
+          mes={5}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201752"
+          mes={5}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201753"
+          mes={5}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201754"
+          mes={5}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201755"
+          mes={5}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+      </div>
+    </Mensal>
+    <Mensal
+      ano="2017"
+      key="20176"
+      mes={6}
+      periodosMes={Object {}}
+    >
+      <div>
+        <Semanal
+          ano="2017"
+          key="201761"
+          mes={6}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201762"
+          mes={6}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201763"
+          mes={6}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201764"
+          mes={6}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201765"
+          mes={6}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201766"
+          mes={6}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+      </div>
+    </Mensal>
+    <Mensal
+      ano="2017"
+      key="20177"
+      mes={7}
+      periodosMes={Object {}}
+    >
+      <div>
+        <Semanal
+          ano="2017"
+          key="201771"
+          mes={7}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201772"
+          mes={7}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201773"
+          mes={7}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201774"
+          mes={7}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201775"
+          mes={7}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201776"
+          mes={7}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+      </div>
+    </Mensal>
+    <Mensal
+      ano="2017"
+      key="20178"
+      mes={8}
+      periodosMes={Object {}}
+    >
+      <div>
+        <Semanal
+          ano="2017"
+          key="201781"
+          mes={8}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201782"
+          mes={8}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201783"
+          mes={8}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201784"
+          mes={8}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201785"
+          mes={8}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+      </div>
+    </Mensal>
+    <Mensal
+      ano="2017"
+      key="20179"
+      mes={9}
+      periodosMes={Object {}}
+    >
+      <div>
+        <Semanal
+          ano="2017"
+          key="201791"
+          mes={9}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201792"
+          mes={9}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201793"
+          mes={9}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201794"
+          mes={9}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201795"
+          mes={9}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+        <Semanal
+          ano="2017"
+          key="201796"
+          mes={9}
+          periodosSemana={Object {}}
+        >
+          <span>
+            Hello, Árvore de Livros
+          </span>
+        </Semanal>
+      </div>
+    </Mensal>
+  </div>
 </Anual>
 `;

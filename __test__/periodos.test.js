@@ -1,4 +1,5 @@
 import Periodos from '../src/business/periodos';
+import _ from 'lodash';
 
 describe('Classe Períodos', () => {
   it("O JSON deve ser processado corretamente com parâmetro", () => {
@@ -50,5 +51,11 @@ describe('Classe Períodos', () => {
     expect(Periodos.countSemanasDoMes(1978, 11)).toEqual(5);
     expect(Periodos.countSemanasDoMes(2016, 2)).toEqual(5);
     expect(Periodos.countSemanasDoMes(2017, 7)).toEqual(6);
+  });
+
+  it('A quantidade de meses do período deve ser calculada corretamente', () => {
+    expect(Periodos.getMesesDoPeriodo('2016-08-15', '2017-08-15')).toEqual({"2016": [8, 9, 10, 11, 12], "2017": [1, 2, 3, 4, 5, 6, 7, 8]});
+    expect(_.flatten(_.values(Periodos.getMesesDoPeriodo('2015-08-15', '2017-08-15'))).length).toEqual(25);
+    expect(_.flatten(_.values(Periodos.getMesesDoPeriodo('2016-01-01', '2017-12-31'))).length).toEqual(25);
   });
 });
