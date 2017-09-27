@@ -25,6 +25,6 @@ export default class Anual extends Component {
     return meses;
   }
   render() {
-    return <div>{this.renderMeses()}</div>;
+    return <div className="anual">{this.renderMeses()}</div>;
   }
 }

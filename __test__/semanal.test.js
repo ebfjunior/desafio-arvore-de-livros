@@ -7,7 +7,7 @@ describe('Componente Semanal', () => {
     const semana = {
         "3" : {"2016-10-12" : 1}
     };
-    const wrapper = mount(<Semanal ano="2016" mes="10" periodosSemana={semana}/>);
+    const wrapper = mount(<Semanal ano="2016" mes="10" dias={[9,10,11,12,13,14,15]} periodosSemana={semana["3"]} semana="3"/>);
 
     expect(wrapper).toMatchSnapshot();
   });
@@ -16,7 +16,7 @@ describe('Componente Semanal', () => {
     const semana = {
         "3" : {"2016-10-12" : 1}
     };
-    const wrapper = mount(<Semanal ano="2016" mes="10" periodosSemana={semana}/>);
+    const wrapper = mount(<Semanal ano="2016" mes="10" dias={[9,10,11,12,13,14,15]} periodosSemana={semana["3"]} semana="3"/>);
 
     expect(wrapper.state().semana).toEqual("3");
     expect(wrapper.state().periodos).toEqual(semana["3"]);

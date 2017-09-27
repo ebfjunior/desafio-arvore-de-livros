@@ -53,9 +53,16 @@ describe('Classe Períodos', () => {
     expect(Periodos.countSemanasDoMes(2017, 7)).toEqual(6);
   });
 
-  it('A quantidade de meses do período deve ser calculada corretamente', () => {
+  it('Os meses do período devem ser calculados corretamente', () => {
     expect(Periodos.getMesesDoPeriodo('2016-08-15', '2017-08-15')).toEqual({"2016": [8, 9, 10, 11, 12], "2017": [1, 2, 3, 4, 5, 6, 7, 8]});
     expect(_.flatten(_.values(Periodos.getMesesDoPeriodo('2015-08-15', '2017-08-15'))).length).toEqual(25);
     expect(_.flatten(_.values(Periodos.getMesesDoPeriodo('2016-01-01', '2017-12-31'))).length).toEqual(25);
+  });
+
+  it('Os dias da semana devem ser calculados corretamente', () => {
+    expect(Periodos.getDiasDaSemana(2016, 10, 1)).toEqual([1]);
+    expect(Periodos.getDiasDaSemana(2016, 10, 2)).toEqual([2,3,4,5,6,7,8]);
+    expect(Periodos.getDiasDaSemana(2016, 10, 6)).toEqual([30, 31]);
+    expect(Periodos.getDiasDaSemana(2016, 2, 5)).toEqual([28, 29]);
   });
 });

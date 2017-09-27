@@ -21,12 +21,13 @@ export default class Mensal extends Component{
 
     for(let i = 1; i <= this.numeroDeSemanas; i++){
       const periodos = this.state.periodos[i] || {};
-      semanas.push(<Semanal key={`${this.state.ano}${this.state.mes}${i}`} ano={this.state.ano} mes={this.state.mes} periodosSemana={periodos}/>);
+      const diasDaSemana = Periodos.getDiasDaSemana(this.state.ano, this.state.mes, i);
+      semanas.push(<Semanal key={`${this.state.ano}${this.state.mes}${i}`} ano={this.state.ano} mes={this.state.mes} dias={diasDaSemana} periodosSemana={periodos} semana={i}/>);
     }
 
     return semanas;
   }
   render(){
-    return (<div>{this.renderSemanas()}</div>);
+    return (<div className="mensal">{this.renderSemanas()}</div>);
   }
 }

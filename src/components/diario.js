@@ -4,20 +4,15 @@ export default class Diario extends Component {
   constructor(props) {
     super(props);
 
-    const { periodo } = props;
-    this.state = { periodo };
+    const { date, produtividade } = props;
+    this.state = { date, produtividade };
   }
   render() {
+    const colorClass = this.state.produtividade 
+    const inactiveClass = this.state.date === null && this.state.produtividade === null ? "inactive" : "";
+    
     return (
-      <svg
-        width="20"
-        height="20"
-        x="0"
-        y={this.props.y}
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="20" height="20" fill="#3FC0D9" />
-      </svg>
+      <div className={`diario c${this.state.produtividade} ${inactiveClass}`} title={this.state.date}></div>
     );
   }
 }

@@ -5,22 +5,37 @@ export default class Semanal extends Component{
   constructor(props){
     super(props);
 
-    const {ano, mes} = props;
-    const semana = Object.keys(props.periodosSemana)[0];
-    const periodos = props.periodosSemana[semana];
-    this.state = {ano, mes, semana, periodos};
-  }
-  renderDias(){
-    let dias = [];
+    const {ano, mes, dias, semana} = props;
 
-    for(let i = 1; i <= 7; i++){
-      const periodos = this.state.periodos[i] || {};
-      semanas.push(<Diario key={`${this.state.ano}${this.state.mes}${this.state.semana}${i}`} periodosSemana={periodos}/>);
+    const periodos = props.periodosSemana || {};
+
+    if(dias.length < 7 && semana == 1)
+      while(dias.length < 7)
+        dias.unshift(null);
+
+      this.state = {ano, mes, semana, dias, periodos};
+
+      this.renderDias = this.renderDias.bind(this);
     }
+    renderDias(){
+      let dias = [];
+      const strDates = Object.keys(this.state.periodos);
+      this.state.dias.forEach((dia) => {
+        const date = dia ? new Date(this.state.ano, this.state.mes - 1, dia) : null;
+        if(date){
+          const formatedDate = date.toISOString().slice(0, 10);
+          const produtividade = Object.keys(this.state.periodos).indexOf(formatedDate) != -1 ? this.state.periodos[formatedDate] : 0;
 
-    return semanas;
+          dias.push(<Diario key={`${this.state.ano}${this.state.mes}${dia}`} date={formatedDate} produtividade={produtividade}/>)  
+        }else{
+          dias.push(<Diario key={`${this.state.ano}${this.state.mes}${Math.random()}`} date={null} produtividade={null}/>)  
+        }
+
+      });
+
+      return dias;
+    }
+    render(){
+      return (<div className="semanal">{this.renderDias()}</div>);
+    }
   }
-  render(){
-    return (<span>Hello, Árvore de Livros</span>);
-  }
-}

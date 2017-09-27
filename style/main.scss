@@ -1,0 +1,25 @@
+.anual,.mensal,.semanal,.diario{
+  overflow: auto;
+}
+.diario{
+  height: 15px;
+  width: 15px;
+  margin: 1px;
+  float: left;
+  border: 1px solid #eee;
+
+  &.inactive{
+    background: #ddd;
+  }
+}
+
+$base-color: #CEF1FF;
+@for $i from 1 through 100 {
+  .diario.c#{$i} {
+    background: darken($base-color, $i/1.5);
+  }
+}
+
+.diario.44{
+  background: #bbb;
+}

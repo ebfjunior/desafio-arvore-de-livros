@@ -3,17 +3,98 @@
 exports[`Componente Semanal Deve renderizar adequadamente 1`] = `
 <Semanal
   ano="2016"
+  dias={
+    Array [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+    ]
+  }
   mes="10"
   periodosSemana={
     Object {
-      "3": Object {
-        "2016-10-12": 1,
-      },
+      "2016-10-12": 1,
     }
   }
+  semana="3"
 >
-  <span>
-    Hello, Árvore de Livros
-  </span>
+  <div
+    className="semanal"
+  >
+    <Diario
+      date="2016-10-09"
+      key="2016109"
+      produtividade={0}
+    >
+      <div
+        className="diario c0 "
+        title="2016-10-09"
+      />
+    </Diario>
+    <Diario
+      date="2016-10-10"
+      key="20161010"
+      produtividade={0}
+    >
+      <div
+        className="diario c0 "
+        title="2016-10-10"
+      />
+    </Diario>
+    <Diario
+      date="2016-10-11"
+      key="20161011"
+      produtividade={0}
+    >
+      <div
+        className="diario c0 "
+        title="2016-10-11"
+      />
+    </Diario>
+    <Diario
+      date="2016-10-12"
+      key="20161012"
+      produtividade={1}
+    >
+      <div
+        className="diario c1 "
+        title="2016-10-12"
+      />
+    </Diario>
+    <Diario
+      date="2016-10-13"
+      key="20161013"
+      produtividade={0}
+    >
+      <div
+        className="diario c0 "
+        title="2016-10-13"
+      />
+    </Diario>
+    <Diario
+      date="2016-10-14"
+      key="20161014"
+      produtividade={0}
+    >
+      <div
+        className="diario c0 "
+        title="2016-10-14"
+      />
+    </Diario>
+    <Diario
+      date="2016-10-15"
+      key="20161015"
+      produtividade={0}
+    >
+      <div
+        className="diario c0 "
+        title="2016-10-15"
+      />
+    </Diario>
+  </div>
 </Semanal>
 `;

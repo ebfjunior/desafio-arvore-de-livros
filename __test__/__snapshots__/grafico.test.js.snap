@@ -2,8 +2,7026 @@
 
 exports[`Componente Gráfico Deve renderizar adequadamente 1`] = `
 <Grafico>
-  <span>
-    Hello, Árvore de Livros
-  </span>
+  <Anual
+    data_final="2017-06-08"
+    data_inicial="2016-06-08"
+    periodos={
+      Object {
+        "2016": Object {
+          "10": Object {
+            "3": Object {
+              "2016-10-12": 14,
+              "2016-10-13": 44,
+              "2016-10-14": 50,
+              "2016-10-15": 48,
+              "2016-10-16": 34,
+            },
+            "4": Object {
+              "2016-10-17": 9,
+              "2016-10-18": 21,
+              "2016-10-20": 12,
+              "2016-10-21": 19,
+              "2016-10-23": 49,
+            },
+            "5": Object {
+              "2016-10-25": 50,
+              "2016-10-30": 35,
+            },
+            "6": Object {
+              "2016-10-31": 50,
+            },
+          },
+          "11": Object {
+            "1": Object {
+              "2016-11-02": 24,
+              "2016-11-03": 41,
+              "2016-11-04": 31,
+              "2016-11-06": 17,
+            },
+            "2": Object {
+              "2016-11-07": 31,
+              "2016-11-08": 2,
+              "2016-11-09": 14,
+              "2016-11-11": 24,
+              "2016-11-12": 28,
+              "2016-11-13": 8,
+            },
+            "3": Object {
+              "2016-11-15": 32,
+              "2016-11-16": 24,
+              "2016-11-18": 17,
+              "2016-11-19": 40,
+              "2016-11-20": 19,
+            },
+            "4": Object {
+              "2016-11-23": 11,
+              "2016-11-24": 27,
+              "2016-11-26": 2,
+            },
+            "5": Object {
+              "2016-11-28": 17,
+            },
+            "6": Object {
+              "2016-11-01": 7,
+            },
+          },
+          "12": Object {
+            "1": Object {
+              "2016-12-02": 8,
+              "2016-12-04": 26,
+            },
+            "2": Object {
+              "2016-12-05": 16,
+              "2016-12-07": 44,
+              "2016-12-08": 42,
+              "2016-12-09": 39,
+              "2016-12-10": 36,
+              "2016-12-11": 9,
+            },
+            "3": Object {
+              "2016-12-12": 3,
+              "2016-12-13": 39,
+              "2016-12-14": 4,
+              "2016-12-15": 17,
+              "2016-12-17": 32,
+              "2016-12-18": 39,
+            },
+            "4": Object {
+              "2016-12-19": 46,
+              "2016-12-20": 2,
+              "2016-12-21": 12,
+              "2016-12-22": 4,
+              "2016-12-23": 1,
+              "2016-12-24": 9,
+              "2016-12-25": 43,
+            },
+            "5": Object {
+              "2016-12-26": 2,
+              "2016-12-27": 10,
+              "2016-12-28": 12,
+              "2016-12-30": 45,
+            },
+          },
+        },
+        "2017": Object {
+          "1": Object {
+            "1": Object {
+              "2017-01-02": 5,
+              "2017-01-03": 47,
+              "2017-01-05": 8,
+              "2017-01-07": 1,
+            },
+            "2": Object {
+              "2017-01-09": 36,
+              "2017-01-10": 30,
+              "2017-01-12": 27,
+              "2017-01-13": 32,
+            },
+            "3": Object {
+              "2017-01-16": 38,
+              "2017-01-17": 20,
+              "2017-01-18": 38,
+              "2017-01-20": 2,
+              "2017-01-21": 2,
+              "2017-01-22": 18,
+            },
+            "4": Object {
+              "2017-01-23": 37,
+              "2017-01-24": 37,
+              "2017-01-25": 15,
+              "2017-01-26": 30,
+              "2017-01-27": 10,
+              "2017-01-28": 37,
+            },
+            "5": Object {
+              "2017-01-01": 31,
+              "2017-01-31": 9,
+            },
+          },
+          "2": Object {
+            "1": Object {
+              "2017-02-02": 39,
+              "2017-02-04": 13,
+              "2017-02-05": 39,
+            },
+            "2": Object {
+              "2017-02-07": 22,
+              "2017-02-08": 27,
+              "2017-02-10": 33,
+              "2017-02-12": 6,
+            },
+            "3": Object {
+              "2017-02-13": 10,
+              "2017-02-14": 44,
+              "2017-02-15": 47,
+              "2017-02-17": 27,
+              "2017-02-18": 28,
+              "2017-02-19": 26,
+            },
+            "4": Object {
+              "2017-02-20": 12,
+              "2017-02-23": 20,
+              "2017-02-24": 46,
+              "2017-02-25": 37,
+            },
+            "5": Object {
+              "2017-02-27": 37,
+            },
+          },
+          "3": Object {
+            "1": Object {
+              "2017-03-02": 30,
+              "2017-03-04": 1,
+            },
+            "2": Object {
+              "2017-03-07": 49,
+              "2017-03-10": 22,
+              "2017-03-11": 16,
+            },
+            "3": Object {
+              "2017-03-13": 34,
+              "2017-03-14": 6,
+              "2017-03-16": 46,
+              "2017-03-17": 28,
+              "2017-03-18": 50,
+              "2017-03-19": 8,
+            },
+            "4": Object {
+              "2017-03-20": 6,
+              "2017-03-21": 37,
+              "2017-03-24": 4,
+              "2017-03-25": 47,
+              "2017-03-26": 27,
+            },
+            "5": Object {
+              "2017-03-01": 6,
+              "2017-03-27": 48,
+              "2017-03-28": 18,
+              "2017-03-29": 32,
+              "2017-03-31": 32,
+            },
+          },
+          "4": Object {
+            "1": Object {
+              "2017-04-02": 22,
+            },
+            "2": Object {
+              "2017-04-03": 25,
+              "2017-04-05": 13,
+              "2017-04-06": 50,
+              "2017-04-07": 2,
+              "2017-04-08": 32,
+              "2017-04-09": 33,
+            },
+            "3": Object {
+              "2017-04-10": 12,
+              "2017-04-11": 30,
+              "2017-04-12": 45,
+              "2017-04-13": 6,
+              "2017-04-15": 37,
+              "2017-04-16": 39,
+            },
+            "4": Object {
+              "2017-04-18": 46,
+              "2017-04-19": 41,
+              "2017-04-20": 28,
+              "2017-04-22": 38,
+              "2017-04-23": 43,
+            },
+            "5": Object {
+              "2017-04-24": 1,
+              "2017-04-25": 49,
+              "2017-04-26": 21,
+              "2017-04-27": 7,
+              "2017-04-30": 28,
+            },
+            "6": Object {
+              "2017-04-01": 38,
+            },
+          },
+          "5": Object {
+            "1": Object {
+              "2017-05-02": 27,
+              "2017-05-03": 23,
+              "2017-05-04": 43,
+              "2017-05-06": 1,
+              "2017-05-07": 8,
+            },
+            "2": Object {
+              "2017-05-08": 47,
+              "2017-05-09": 25,
+              "2017-05-10": 43,
+              "2017-05-11": 49,
+              "2017-05-12": 3,
+              "2017-05-14": 43,
+            },
+            "3": Object {
+              "2017-05-15": 15,
+              "2017-05-16": 48,
+              "2017-05-18": 43,
+              "2017-05-19": 9,
+              "2017-05-21": 35,
+            },
+            "4": Object {
+              "2017-05-23": 12,
+              "2017-05-24": 36,
+              "2017-05-25": 39,
+              "2017-05-26": 25,
+              "2017-05-27": 1,
+              "2017-05-28": 42,
+            },
+            "5": Object {
+              "2017-05-30": 18,
+              "2017-05-31": 44,
+            },
+            "6": Object {
+              "2017-05-01": 37,
+            },
+          },
+          "6": Object {
+            "1": Object {
+              "2017-06-02": 19,
+              "2017-06-03": 42,
+              "2017-06-04": 50,
+            },
+            "2": Object {
+              "2017-06-05": 13,
+              "2017-06-06": 32,
+              "2017-06-08": 48,
+            },
+            "6": Object {
+              "2017-06-01": 45,
+            },
+          },
+        },
+      }
+    }
+  >
+    <div
+      className="anual"
+    >
+      <Mensal
+        ano="2016"
+        key="20166"
+        mes={6}
+        periodosMes={Object {}}
+      >
+        <div
+          className="mensal"
+        >
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                null,
+                null,
+                null,
+                1,
+                2,
+                3,
+                4,
+              ]
+            }
+            key="201661"
+            mes={6}
+            periodosSemana={Object {}}
+            semana={1}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date={null}
+                key="201660.8725763827096671"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201660.7445252775214612"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201660.9734248388558626"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date="2016-06-01"
+                key="201661"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-01"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-02"
+                key="201662"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-02"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-03"
+                key="201663"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-03"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-04"
+                key="201664"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-04"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+              ]
+            }
+            key="201662"
+            mes={6}
+            periodosSemana={Object {}}
+            semana={2}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-06-05"
+                key="201665"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-05"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-06"
+                key="201666"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-06"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-07"
+                key="201667"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-07"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-08"
+                key="201668"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-08"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-09"
+                key="201669"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-09"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-10"
+                key="2016610"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-10"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-11"
+                key="2016611"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-11"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+              ]
+            }
+            key="201663"
+            mes={6}
+            periodosSemana={Object {}}
+            semana={3}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-06-12"
+                key="2016612"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-12"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-13"
+                key="2016613"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-13"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-14"
+                key="2016614"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-14"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-15"
+                key="2016615"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-15"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-16"
+                key="2016616"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-16"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-17"
+                key="2016617"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-17"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-18"
+                key="2016618"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-18"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+              ]
+            }
+            key="201664"
+            mes={6}
+            periodosSemana={Object {}}
+            semana={4}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-06-19"
+                key="2016619"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-19"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-20"
+                key="2016620"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-20"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-21"
+                key="2016621"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-21"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-22"
+                key="2016622"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-22"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-23"
+                key="2016623"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-23"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-24"
+                key="2016624"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-24"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-25"
+                key="2016625"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-25"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                26,
+                27,
+                28,
+                29,
+                30,
+              ]
+            }
+            key="201665"
+            mes={6}
+            periodosSemana={Object {}}
+            semana={5}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-06-26"
+                key="2016626"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-26"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-27"
+                key="2016627"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-27"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-28"
+                key="2016628"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-28"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-29"
+                key="2016629"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-29"
+                />
+              </Diario>
+              <Diario
+                date="2016-06-30"
+                key="2016630"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-06-30"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+        </div>
+      </Mensal>
+      <Mensal
+        ano="2016"
+        key="20167"
+        mes={7}
+        periodosMes={Object {}}
+      >
+        <div
+          className="mensal"
+        >
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                null,
+                null,
+                null,
+                null,
+                null,
+                1,
+                2,
+              ]
+            }
+            key="201671"
+            mes={7}
+            periodosSemana={Object {}}
+            semana={1}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date={null}
+                key="201670.9528120846953243"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201670.33412000304087996"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201670.2013541792985052"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201670.24710732465609908"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201670.28336487570777535"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date="2016-07-01"
+                key="201671"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-01"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-02"
+                key="201672"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-02"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+              ]
+            }
+            key="201672"
+            mes={7}
+            periodosSemana={Object {}}
+            semana={2}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-07-03"
+                key="201673"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-03"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-04"
+                key="201674"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-04"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-05"
+                key="201675"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-05"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-06"
+                key="201676"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-06"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-07"
+                key="201677"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-07"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-08"
+                key="201678"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-08"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-09"
+                key="201679"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-09"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+              ]
+            }
+            key="201673"
+            mes={7}
+            periodosSemana={Object {}}
+            semana={3}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-07-10"
+                key="2016710"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-10"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-11"
+                key="2016711"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-11"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-12"
+                key="2016712"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-12"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-13"
+                key="2016713"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-13"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-14"
+                key="2016714"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-14"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-15"
+                key="2016715"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-15"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-16"
+                key="2016716"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-16"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+              ]
+            }
+            key="201674"
+            mes={7}
+            periodosSemana={Object {}}
+            semana={4}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-07-17"
+                key="2016717"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-17"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-18"
+                key="2016718"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-18"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-19"
+                key="2016719"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-19"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-20"
+                key="2016720"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-20"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-21"
+                key="2016721"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-21"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-22"
+                key="2016722"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-22"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-23"
+                key="2016723"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-23"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+              ]
+            }
+            key="201675"
+            mes={7}
+            periodosSemana={Object {}}
+            semana={5}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-07-24"
+                key="2016724"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-24"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-25"
+                key="2016725"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-25"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-26"
+                key="2016726"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-26"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-27"
+                key="2016727"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-27"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-28"
+                key="2016728"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-28"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-29"
+                key="2016729"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-29"
+                />
+              </Diario>
+              <Diario
+                date="2016-07-30"
+                key="2016730"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-30"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                31,
+              ]
+            }
+            key="201676"
+            mes={7}
+            periodosSemana={Object {}}
+            semana={6}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-07-31"
+                key="2016731"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-07-31"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+        </div>
+      </Mensal>
+      <Mensal
+        ano="2016"
+        key="20168"
+        mes={8}
+        periodosMes={Object {}}
+      >
+        <div
+          className="mensal"
+        >
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                null,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+              ]
+            }
+            key="201681"
+            mes={8}
+            periodosSemana={Object {}}
+            semana={1}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date={null}
+                key="201680.9714953156653792"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date="2016-08-01"
+                key="201681"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-01"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-02"
+                key="201682"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-02"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-03"
+                key="201683"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-03"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-04"
+                key="201684"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-04"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-05"
+                key="201685"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-05"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-06"
+                key="201686"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-06"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+              ]
+            }
+            key="201682"
+            mes={8}
+            periodosSemana={Object {}}
+            semana={2}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-08-07"
+                key="201687"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-07"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-08"
+                key="201688"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-08"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-09"
+                key="201689"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-09"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-10"
+                key="2016810"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-10"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-11"
+                key="2016811"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-11"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-12"
+                key="2016812"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-12"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-13"
+                key="2016813"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-13"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+              ]
+            }
+            key="201683"
+            mes={8}
+            periodosSemana={Object {}}
+            semana={3}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-08-14"
+                key="2016814"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-14"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-15"
+                key="2016815"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-15"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-16"
+                key="2016816"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-16"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-17"
+                key="2016817"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-17"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-18"
+                key="2016818"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-18"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-19"
+                key="2016819"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-19"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-20"
+                key="2016820"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-20"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+              ]
+            }
+            key="201684"
+            mes={8}
+            periodosSemana={Object {}}
+            semana={4}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-08-21"
+                key="2016821"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-21"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-22"
+                key="2016822"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-22"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-23"
+                key="2016823"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-23"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-24"
+                key="2016824"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-24"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-25"
+                key="2016825"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-25"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-26"
+                key="2016826"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-26"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-27"
+                key="2016827"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-27"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                28,
+                29,
+                30,
+                31,
+              ]
+            }
+            key="201685"
+            mes={8}
+            periodosSemana={Object {}}
+            semana={5}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-08-28"
+                key="2016828"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-28"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-29"
+                key="2016829"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-29"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-30"
+                key="2016830"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-30"
+                />
+              </Diario>
+              <Diario
+                date="2016-08-31"
+                key="2016831"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-08-31"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+        </div>
+      </Mensal>
+      <Mensal
+        ano="2016"
+        key="20169"
+        mes={9}
+        periodosMes={Object {}}
+      >
+        <div
+          className="mensal"
+        >
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                null,
+                null,
+                null,
+                null,
+                1,
+                2,
+                3,
+              ]
+            }
+            key="201691"
+            mes={9}
+            periodosSemana={Object {}}
+            semana={1}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date={null}
+                key="201690.8862028047442436"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201690.4523796618450433"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201690.6068807595875114"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201690.036689108703285456"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date="2016-09-01"
+                key="201691"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-01"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-02"
+                key="201692"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-02"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-03"
+                key="201693"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-03"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+              ]
+            }
+            key="201692"
+            mes={9}
+            periodosSemana={Object {}}
+            semana={2}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-09-04"
+                key="201694"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-04"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-05"
+                key="201695"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-05"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-06"
+                key="201696"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-06"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-07"
+                key="201697"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-07"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-08"
+                key="201698"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-08"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-09"
+                key="201699"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-09"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-10"
+                key="2016910"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-10"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+              ]
+            }
+            key="201693"
+            mes={9}
+            periodosSemana={Object {}}
+            semana={3}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-09-11"
+                key="2016911"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-11"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-12"
+                key="2016912"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-12"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-13"
+                key="2016913"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-13"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-14"
+                key="2016914"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-14"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-15"
+                key="2016915"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-15"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-16"
+                key="2016916"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-16"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-17"
+                key="2016917"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-17"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+              ]
+            }
+            key="201694"
+            mes={9}
+            periodosSemana={Object {}}
+            semana={4}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-09-18"
+                key="2016918"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-18"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-19"
+                key="2016919"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-19"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-20"
+                key="2016920"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-20"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-21"
+                key="2016921"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-21"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-22"
+                key="2016922"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-22"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-23"
+                key="2016923"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-23"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-24"
+                key="2016924"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-24"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+              ]
+            }
+            key="201695"
+            mes={9}
+            periodosSemana={Object {}}
+            semana={5}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-09-25"
+                key="2016925"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-25"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-26"
+                key="2016926"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-26"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-27"
+                key="2016927"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-27"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-28"
+                key="2016928"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-28"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-29"
+                key="2016929"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-29"
+                />
+              </Diario>
+              <Diario
+                date="2016-09-30"
+                key="2016930"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-09-30"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+        </div>
+      </Mensal>
+      <Mensal
+        ano="2016"
+        key="201610"
+        mes={10}
+        periodosMes={
+          Object {
+            "3": Object {
+              "2016-10-12": 14,
+              "2016-10-13": 44,
+              "2016-10-14": 50,
+              "2016-10-15": 48,
+              "2016-10-16": 34,
+            },
+            "4": Object {
+              "2016-10-17": 9,
+              "2016-10-18": 21,
+              "2016-10-20": 12,
+              "2016-10-21": 19,
+              "2016-10-23": 49,
+            },
+            "5": Object {
+              "2016-10-25": 50,
+              "2016-10-30": 35,
+            },
+            "6": Object {
+              "2016-10-31": 50,
+            },
+          }
+        }
+      >
+        <div
+          className="mensal"
+        >
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                1,
+              ]
+            }
+            key="2016101"
+            mes={10}
+            periodosSemana={Object {}}
+            semana={1}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date={null}
+                key="2016100.5457604692783207"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="2016100.8077666864264756"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="2016100.9640746603254229"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="2016100.324122482445091"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="2016100.003483089152723551"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="2016100.8156147236004472"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date="2016-10-01"
+                key="2016101"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-01"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+              ]
+            }
+            key="2016102"
+            mes={10}
+            periodosSemana={Object {}}
+            semana={2}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-10-02"
+                key="2016102"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-02"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-03"
+                key="2016103"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-03"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-04"
+                key="2016104"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-04"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-05"
+                key="2016105"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-05"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-06"
+                key="2016106"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-06"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-07"
+                key="2016107"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-07"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-08"
+                key="2016108"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-08"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+              ]
+            }
+            key="2016103"
+            mes={10}
+            periodosSemana={
+              Object {
+                "2016-10-12": 14,
+                "2016-10-13": 44,
+                "2016-10-14": 50,
+                "2016-10-15": 48,
+                "2016-10-16": 34,
+              }
+            }
+            semana={3}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-10-09"
+                key="2016109"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-09"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-10"
+                key="20161010"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-10"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-11"
+                key="20161011"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-11"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-12"
+                key="20161012"
+                produtividade={14}
+              >
+                <div
+                  className="diario c14 "
+                  title="2016-10-12"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-13"
+                key="20161013"
+                produtividade={44}
+              >
+                <div
+                  className="diario c44 "
+                  title="2016-10-13"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-14"
+                key="20161014"
+                produtividade={50}
+              >
+                <div
+                  className="diario c50 "
+                  title="2016-10-14"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-15"
+                key="20161015"
+                produtividade={48}
+              >
+                <div
+                  className="diario c48 "
+                  title="2016-10-15"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+              ]
+            }
+            key="2016104"
+            mes={10}
+            periodosSemana={
+              Object {
+                "2016-10-17": 9,
+                "2016-10-18": 21,
+                "2016-10-20": 12,
+                "2016-10-21": 19,
+                "2016-10-23": 49,
+              }
+            }
+            semana={4}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-10-16"
+                key="20161016"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-16"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-17"
+                key="20161017"
+                produtividade={9}
+              >
+                <div
+                  className="diario c9 "
+                  title="2016-10-17"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-18"
+                key="20161018"
+                produtividade={21}
+              >
+                <div
+                  className="diario c21 "
+                  title="2016-10-18"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-19"
+                key="20161019"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-19"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-20"
+                key="20161020"
+                produtividade={12}
+              >
+                <div
+                  className="diario c12 "
+                  title="2016-10-20"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-21"
+                key="20161021"
+                produtividade={19}
+              >
+                <div
+                  className="diario c19 "
+                  title="2016-10-21"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-22"
+                key="20161022"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-22"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+              ]
+            }
+            key="2016105"
+            mes={10}
+            periodosSemana={
+              Object {
+                "2016-10-25": 50,
+                "2016-10-30": 35,
+              }
+            }
+            semana={5}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-10-23"
+                key="20161023"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-23"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-24"
+                key="20161024"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-24"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-25"
+                key="20161025"
+                produtividade={50}
+              >
+                <div
+                  className="diario c50 "
+                  title="2016-10-25"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-26"
+                key="20161026"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-26"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-27"
+                key="20161027"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-27"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-28"
+                key="20161028"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-28"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-29"
+                key="20161029"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-29"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                30,
+                31,
+              ]
+            }
+            key="2016106"
+            mes={10}
+            periodosSemana={
+              Object {
+                "2016-10-31": 50,
+              }
+            }
+            semana={6}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-10-30"
+                key="20161030"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-10-30"
+                />
+              </Diario>
+              <Diario
+                date="2016-10-31"
+                key="20161031"
+                produtividade={50}
+              >
+                <div
+                  className="diario c50 "
+                  title="2016-10-31"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+        </div>
+      </Mensal>
+      <Mensal
+        ano="2016"
+        key="201611"
+        mes={11}
+        periodosMes={
+          Object {
+            "1": Object {
+              "2016-11-02": 24,
+              "2016-11-03": 41,
+              "2016-11-04": 31,
+              "2016-11-06": 17,
+            },
+            "2": Object {
+              "2016-11-07": 31,
+              "2016-11-08": 2,
+              "2016-11-09": 14,
+              "2016-11-11": 24,
+              "2016-11-12": 28,
+              "2016-11-13": 8,
+            },
+            "3": Object {
+              "2016-11-15": 32,
+              "2016-11-16": 24,
+              "2016-11-18": 17,
+              "2016-11-19": 40,
+              "2016-11-20": 19,
+            },
+            "4": Object {
+              "2016-11-23": 11,
+              "2016-11-24": 27,
+              "2016-11-26": 2,
+            },
+            "5": Object {
+              "2016-11-28": 17,
+            },
+            "6": Object {
+              "2016-11-01": 7,
+            },
+          }
+        }
+      >
+        <div
+          className="mensal"
+        >
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                null,
+                null,
+                1,
+                2,
+                3,
+                4,
+                5,
+              ]
+            }
+            key="2016111"
+            mes={11}
+            periodosSemana={
+              Object {
+                "2016-11-02": 24,
+                "2016-11-03": 41,
+                "2016-11-04": 31,
+                "2016-11-06": 17,
+              }
+            }
+            semana={1}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date={null}
+                key="2016110.4996137428097427"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="2016110.07136539439670742"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date="2016-11-01"
+                key="2016111"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-01"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-02"
+                key="2016112"
+                produtividade={24}
+              >
+                <div
+                  className="diario c24 "
+                  title="2016-11-02"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-03"
+                key="2016113"
+                produtividade={41}
+              >
+                <div
+                  className="diario c41 "
+                  title="2016-11-03"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-04"
+                key="2016114"
+                produtividade={31}
+              >
+                <div
+                  className="diario c31 "
+                  title="2016-11-04"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-05"
+                key="2016115"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-05"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+              ]
+            }
+            key="2016112"
+            mes={11}
+            periodosSemana={
+              Object {
+                "2016-11-07": 31,
+                "2016-11-08": 2,
+                "2016-11-09": 14,
+                "2016-11-11": 24,
+                "2016-11-12": 28,
+                "2016-11-13": 8,
+              }
+            }
+            semana={2}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-11-06"
+                key="2016116"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-06"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-07"
+                key="2016117"
+                produtividade={31}
+              >
+                <div
+                  className="diario c31 "
+                  title="2016-11-07"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-08"
+                key="2016118"
+                produtividade={2}
+              >
+                <div
+                  className="diario c2 "
+                  title="2016-11-08"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-09"
+                key="2016119"
+                produtividade={14}
+              >
+                <div
+                  className="diario c14 "
+                  title="2016-11-09"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-10"
+                key="20161110"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-10"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-11"
+                key="20161111"
+                produtividade={24}
+              >
+                <div
+                  className="diario c24 "
+                  title="2016-11-11"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-12"
+                key="20161112"
+                produtividade={28}
+              >
+                <div
+                  className="diario c28 "
+                  title="2016-11-12"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+              ]
+            }
+            key="2016113"
+            mes={11}
+            periodosSemana={
+              Object {
+                "2016-11-15": 32,
+                "2016-11-16": 24,
+                "2016-11-18": 17,
+                "2016-11-19": 40,
+                "2016-11-20": 19,
+              }
+            }
+            semana={3}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-11-13"
+                key="20161113"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-13"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-14"
+                key="20161114"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-14"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-15"
+                key="20161115"
+                produtividade={32}
+              >
+                <div
+                  className="diario c32 "
+                  title="2016-11-15"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-16"
+                key="20161116"
+                produtividade={24}
+              >
+                <div
+                  className="diario c24 "
+                  title="2016-11-16"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-17"
+                key="20161117"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-17"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-18"
+                key="20161118"
+                produtividade={17}
+              >
+                <div
+                  className="diario c17 "
+                  title="2016-11-18"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-19"
+                key="20161119"
+                produtividade={40}
+              >
+                <div
+                  className="diario c40 "
+                  title="2016-11-19"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+              ]
+            }
+            key="2016114"
+            mes={11}
+            periodosSemana={
+              Object {
+                "2016-11-23": 11,
+                "2016-11-24": 27,
+                "2016-11-26": 2,
+              }
+            }
+            semana={4}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-11-20"
+                key="20161120"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-20"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-21"
+                key="20161121"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-21"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-22"
+                key="20161122"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-22"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-23"
+                key="20161123"
+                produtividade={11}
+              >
+                <div
+                  className="diario c11 "
+                  title="2016-11-23"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-24"
+                key="20161124"
+                produtividade={27}
+              >
+                <div
+                  className="diario c27 "
+                  title="2016-11-24"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-25"
+                key="20161125"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-25"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-26"
+                key="20161126"
+                produtividade={2}
+              >
+                <div
+                  className="diario c2 "
+                  title="2016-11-26"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                27,
+                28,
+                29,
+                30,
+              ]
+            }
+            key="2016115"
+            mes={11}
+            periodosSemana={
+              Object {
+                "2016-11-28": 17,
+              }
+            }
+            semana={5}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-11-27"
+                key="20161127"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-27"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-28"
+                key="20161128"
+                produtividade={17}
+              >
+                <div
+                  className="diario c17 "
+                  title="2016-11-28"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-29"
+                key="20161129"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-29"
+                />
+              </Diario>
+              <Diario
+                date="2016-11-30"
+                key="20161130"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-11-30"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+        </div>
+      </Mensal>
+      <Mensal
+        ano="2016"
+        key="201612"
+        mes={12}
+        periodosMes={
+          Object {
+            "1": Object {
+              "2016-12-02": 8,
+              "2016-12-04": 26,
+            },
+            "2": Object {
+              "2016-12-05": 16,
+              "2016-12-07": 44,
+              "2016-12-08": 42,
+              "2016-12-09": 39,
+              "2016-12-10": 36,
+              "2016-12-11": 9,
+            },
+            "3": Object {
+              "2016-12-12": 3,
+              "2016-12-13": 39,
+              "2016-12-14": 4,
+              "2016-12-15": 17,
+              "2016-12-17": 32,
+              "2016-12-18": 39,
+            },
+            "4": Object {
+              "2016-12-19": 46,
+              "2016-12-20": 2,
+              "2016-12-21": 12,
+              "2016-12-22": 4,
+              "2016-12-23": 1,
+              "2016-12-24": 9,
+              "2016-12-25": 43,
+            },
+            "5": Object {
+              "2016-12-26": 2,
+              "2016-12-27": 10,
+              "2016-12-28": 12,
+              "2016-12-30": 45,
+            },
+          }
+        }
+      >
+        <div
+          className="mensal"
+        >
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                null,
+                null,
+                null,
+                null,
+                1,
+                2,
+                3,
+              ]
+            }
+            key="2016121"
+            mes={12}
+            periodosSemana={
+              Object {
+                "2016-12-02": 8,
+                "2016-12-04": 26,
+              }
+            }
+            semana={1}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date={null}
+                key="2016120.8548330042976886"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="2016120.5663157610688359"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="2016120.8891688878647983"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="2016120.7134246674831957"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date="2016-12-01"
+                key="2016121"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-12-01"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-02"
+                key="2016122"
+                produtividade={8}
+              >
+                <div
+                  className="diario c8 "
+                  title="2016-12-02"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-03"
+                key="2016123"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-12-03"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+              ]
+            }
+            key="2016122"
+            mes={12}
+            periodosSemana={
+              Object {
+                "2016-12-05": 16,
+                "2016-12-07": 44,
+                "2016-12-08": 42,
+                "2016-12-09": 39,
+                "2016-12-10": 36,
+                "2016-12-11": 9,
+              }
+            }
+            semana={2}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-12-04"
+                key="2016124"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-12-04"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-05"
+                key="2016125"
+                produtividade={16}
+              >
+                <div
+                  className="diario c16 "
+                  title="2016-12-05"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-06"
+                key="2016126"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-12-06"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-07"
+                key="2016127"
+                produtividade={44}
+              >
+                <div
+                  className="diario c44 "
+                  title="2016-12-07"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-08"
+                key="2016128"
+                produtividade={42}
+              >
+                <div
+                  className="diario c42 "
+                  title="2016-12-08"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-09"
+                key="2016129"
+                produtividade={39}
+              >
+                <div
+                  className="diario c39 "
+                  title="2016-12-09"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-10"
+                key="20161210"
+                produtividade={36}
+              >
+                <div
+                  className="diario c36 "
+                  title="2016-12-10"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+              ]
+            }
+            key="2016123"
+            mes={12}
+            periodosSemana={
+              Object {
+                "2016-12-12": 3,
+                "2016-12-13": 39,
+                "2016-12-14": 4,
+                "2016-12-15": 17,
+                "2016-12-17": 32,
+                "2016-12-18": 39,
+              }
+            }
+            semana={3}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-12-11"
+                key="20161211"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-12-11"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-12"
+                key="20161212"
+                produtividade={3}
+              >
+                <div
+                  className="diario c3 "
+                  title="2016-12-12"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-13"
+                key="20161213"
+                produtividade={39}
+              >
+                <div
+                  className="diario c39 "
+                  title="2016-12-13"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-14"
+                key="20161214"
+                produtividade={4}
+              >
+                <div
+                  className="diario c4 "
+                  title="2016-12-14"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-15"
+                key="20161215"
+                produtividade={17}
+              >
+                <div
+                  className="diario c17 "
+                  title="2016-12-15"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-16"
+                key="20161216"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-12-16"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-17"
+                key="20161217"
+                produtividade={32}
+              >
+                <div
+                  className="diario c32 "
+                  title="2016-12-17"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+              ]
+            }
+            key="2016124"
+            mes={12}
+            periodosSemana={
+              Object {
+                "2016-12-19": 46,
+                "2016-12-20": 2,
+                "2016-12-21": 12,
+                "2016-12-22": 4,
+                "2016-12-23": 1,
+                "2016-12-24": 9,
+                "2016-12-25": 43,
+              }
+            }
+            semana={4}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-12-18"
+                key="20161218"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-12-18"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-19"
+                key="20161219"
+                produtividade={46}
+              >
+                <div
+                  className="diario c46 "
+                  title="2016-12-19"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-20"
+                key="20161220"
+                produtividade={2}
+              >
+                <div
+                  className="diario c2 "
+                  title="2016-12-20"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-21"
+                key="20161221"
+                produtividade={12}
+              >
+                <div
+                  className="diario c12 "
+                  title="2016-12-21"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-22"
+                key="20161222"
+                produtividade={4}
+              >
+                <div
+                  className="diario c4 "
+                  title="2016-12-22"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-23"
+                key="20161223"
+                produtividade={1}
+              >
+                <div
+                  className="diario c1 "
+                  title="2016-12-23"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-24"
+                key="20161224"
+                produtividade={9}
+              >
+                <div
+                  className="diario c9 "
+                  title="2016-12-24"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+              ]
+            }
+            key="2016125"
+            mes={12}
+            periodosSemana={
+              Object {
+                "2016-12-26": 2,
+                "2016-12-27": 10,
+                "2016-12-28": 12,
+                "2016-12-30": 45,
+              }
+            }
+            semana={5}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2016-12-25"
+                key="20161225"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-12-25"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-26"
+                key="20161226"
+                produtividade={2}
+              >
+                <div
+                  className="diario c2 "
+                  title="2016-12-26"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-27"
+                key="20161227"
+                produtividade={10}
+              >
+                <div
+                  className="diario c10 "
+                  title="2016-12-27"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-28"
+                key="20161228"
+                produtividade={12}
+              >
+                <div
+                  className="diario c12 "
+                  title="2016-12-28"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-29"
+                key="20161229"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-12-29"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-30"
+                key="20161230"
+                produtividade={45}
+              >
+                <div
+                  className="diario c45 "
+                  title="2016-12-30"
+                />
+              </Diario>
+              <Diario
+                date="2016-12-31"
+                key="20161231"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2016-12-31"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2016"
+            dias={
+              Array [
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+              ]
+            }
+            key="2016126"
+            mes={12}
+            periodosSemana={Object {}}
+            semana={6}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-01-01"
+                key="20161232"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-01"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-02"
+                key="20161233"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-02"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-03"
+                key="20161234"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-03"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-04"
+                key="20161235"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-04"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-05"
+                key="20161236"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-05"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-06"
+                key="20161237"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-06"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-07"
+                key="20161238"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-07"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+        </div>
+      </Mensal>
+      <Mensal
+        ano="2017"
+        key="20171"
+        mes={1}
+        periodosMes={
+          Object {
+            "1": Object {
+              "2017-01-02": 5,
+              "2017-01-03": 47,
+              "2017-01-05": 8,
+              "2017-01-07": 1,
+            },
+            "2": Object {
+              "2017-01-09": 36,
+              "2017-01-10": 30,
+              "2017-01-12": 27,
+              "2017-01-13": 32,
+            },
+            "3": Object {
+              "2017-01-16": 38,
+              "2017-01-17": 20,
+              "2017-01-18": 38,
+              "2017-01-20": 2,
+              "2017-01-21": 2,
+              "2017-01-22": 18,
+            },
+            "4": Object {
+              "2017-01-23": 37,
+              "2017-01-24": 37,
+              "2017-01-25": 15,
+              "2017-01-26": 30,
+              "2017-01-27": 10,
+              "2017-01-28": 37,
+            },
+            "5": Object {
+              "2017-01-01": 31,
+              "2017-01-31": 9,
+            },
+          }
+        }
+      >
+        <div
+          className="mensal"
+        >
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+              ]
+            }
+            key="201711"
+            mes={1}
+            periodosSemana={
+              Object {
+                "2017-01-02": 5,
+                "2017-01-03": 47,
+                "2017-01-05": 8,
+                "2017-01-07": 1,
+              }
+            }
+            semana={1}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-01-01"
+                key="201711"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-01"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-02"
+                key="201712"
+                produtividade={5}
+              >
+                <div
+                  className="diario c5 "
+                  title="2017-01-02"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-03"
+                key="201713"
+                produtividade={47}
+              >
+                <div
+                  className="diario c47 "
+                  title="2017-01-03"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-04"
+                key="201714"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-04"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-05"
+                key="201715"
+                produtividade={8}
+              >
+                <div
+                  className="diario c8 "
+                  title="2017-01-05"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-06"
+                key="201716"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-06"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-07"
+                key="201717"
+                produtividade={1}
+              >
+                <div
+                  className="diario c1 "
+                  title="2017-01-07"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+              ]
+            }
+            key="201712"
+            mes={1}
+            periodosSemana={
+              Object {
+                "2017-01-09": 36,
+                "2017-01-10": 30,
+                "2017-01-12": 27,
+                "2017-01-13": 32,
+              }
+            }
+            semana={2}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-01-08"
+                key="201718"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-08"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-09"
+                key="201719"
+                produtividade={36}
+              >
+                <div
+                  className="diario c36 "
+                  title="2017-01-09"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-10"
+                key="2017110"
+                produtividade={30}
+              >
+                <div
+                  className="diario c30 "
+                  title="2017-01-10"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-11"
+                key="2017111"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-11"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-12"
+                key="2017112"
+                produtividade={27}
+              >
+                <div
+                  className="diario c27 "
+                  title="2017-01-12"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-13"
+                key="2017113"
+                produtividade={32}
+              >
+                <div
+                  className="diario c32 "
+                  title="2017-01-13"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-14"
+                key="2017114"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-14"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+              ]
+            }
+            key="201713"
+            mes={1}
+            periodosSemana={
+              Object {
+                "2017-01-16": 38,
+                "2017-01-17": 20,
+                "2017-01-18": 38,
+                "2017-01-20": 2,
+                "2017-01-21": 2,
+                "2017-01-22": 18,
+              }
+            }
+            semana={3}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-01-15"
+                key="2017115"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-15"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-16"
+                key="2017116"
+                produtividade={38}
+              >
+                <div
+                  className="diario c38 "
+                  title="2017-01-16"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-17"
+                key="2017117"
+                produtividade={20}
+              >
+                <div
+                  className="diario c20 "
+                  title="2017-01-17"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-18"
+                key="2017118"
+                produtividade={38}
+              >
+                <div
+                  className="diario c38 "
+                  title="2017-01-18"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-19"
+                key="2017119"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-19"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-20"
+                key="2017120"
+                produtividade={2}
+              >
+                <div
+                  className="diario c2 "
+                  title="2017-01-20"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-21"
+                key="2017121"
+                produtividade={2}
+              >
+                <div
+                  className="diario c2 "
+                  title="2017-01-21"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+              ]
+            }
+            key="201714"
+            mes={1}
+            periodosSemana={
+              Object {
+                "2017-01-23": 37,
+                "2017-01-24": 37,
+                "2017-01-25": 15,
+                "2017-01-26": 30,
+                "2017-01-27": 10,
+                "2017-01-28": 37,
+              }
+            }
+            semana={4}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-01-22"
+                key="2017122"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-22"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-23"
+                key="2017123"
+                produtividade={37}
+              >
+                <div
+                  className="diario c37 "
+                  title="2017-01-23"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-24"
+                key="2017124"
+                produtividade={37}
+              >
+                <div
+                  className="diario c37 "
+                  title="2017-01-24"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-25"
+                key="2017125"
+                produtividade={15}
+              >
+                <div
+                  className="diario c15 "
+                  title="2017-01-25"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-26"
+                key="2017126"
+                produtividade={30}
+              >
+                <div
+                  className="diario c30 "
+                  title="2017-01-26"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-27"
+                key="2017127"
+                produtividade={10}
+              >
+                <div
+                  className="diario c10 "
+                  title="2017-01-27"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-28"
+                key="2017128"
+                produtividade={37}
+              >
+                <div
+                  className="diario c37 "
+                  title="2017-01-28"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                29,
+                30,
+                31,
+              ]
+            }
+            key="201715"
+            mes={1}
+            periodosSemana={
+              Object {
+                "2017-01-01": 31,
+                "2017-01-31": 9,
+              }
+            }
+            semana={5}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-01-29"
+                key="2017129"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-29"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-30"
+                key="2017130"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-01-30"
+                />
+              </Diario>
+              <Diario
+                date="2017-01-31"
+                key="2017131"
+                produtividade={9}
+              >
+                <div
+                  className="diario c9 "
+                  title="2017-01-31"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+        </div>
+      </Mensal>
+      <Mensal
+        ano="2017"
+        key="20172"
+        mes={2}
+        periodosMes={
+          Object {
+            "1": Object {
+              "2017-02-02": 39,
+              "2017-02-04": 13,
+              "2017-02-05": 39,
+            },
+            "2": Object {
+              "2017-02-07": 22,
+              "2017-02-08": 27,
+              "2017-02-10": 33,
+              "2017-02-12": 6,
+            },
+            "3": Object {
+              "2017-02-13": 10,
+              "2017-02-14": 44,
+              "2017-02-15": 47,
+              "2017-02-17": 27,
+              "2017-02-18": 28,
+              "2017-02-19": 26,
+            },
+            "4": Object {
+              "2017-02-20": 12,
+              "2017-02-23": 20,
+              "2017-02-24": 46,
+              "2017-02-25": 37,
+            },
+            "5": Object {
+              "2017-02-27": 37,
+            },
+          }
+        }
+      >
+        <div
+          className="mensal"
+        >
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                null,
+                null,
+                null,
+                1,
+                2,
+                3,
+                4,
+              ]
+            }
+            key="201721"
+            mes={2}
+            periodosSemana={
+              Object {
+                "2017-02-02": 39,
+                "2017-02-04": 13,
+                "2017-02-05": 39,
+              }
+            }
+            semana={1}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date={null}
+                key="201720.01653528050519526"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201720.14687379566021264"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201720.9957411992363632"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date="2017-02-01"
+                key="201721"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-02-01"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-02"
+                key="201722"
+                produtividade={39}
+              >
+                <div
+                  className="diario c39 "
+                  title="2017-02-02"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-03"
+                key="201723"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-02-03"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-04"
+                key="201724"
+                produtividade={13}
+              >
+                <div
+                  className="diario c13 "
+                  title="2017-02-04"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+              ]
+            }
+            key="201722"
+            mes={2}
+            periodosSemana={
+              Object {
+                "2017-02-07": 22,
+                "2017-02-08": 27,
+                "2017-02-10": 33,
+                "2017-02-12": 6,
+              }
+            }
+            semana={2}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-02-05"
+                key="201725"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-02-05"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-06"
+                key="201726"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-02-06"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-07"
+                key="201727"
+                produtividade={22}
+              >
+                <div
+                  className="diario c22 "
+                  title="2017-02-07"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-08"
+                key="201728"
+                produtividade={27}
+              >
+                <div
+                  className="diario c27 "
+                  title="2017-02-08"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-09"
+                key="201729"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-02-09"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-10"
+                key="2017210"
+                produtividade={33}
+              >
+                <div
+                  className="diario c33 "
+                  title="2017-02-10"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-11"
+                key="2017211"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-02-11"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+              ]
+            }
+            key="201723"
+            mes={2}
+            periodosSemana={
+              Object {
+                "2017-02-13": 10,
+                "2017-02-14": 44,
+                "2017-02-15": 47,
+                "2017-02-17": 27,
+                "2017-02-18": 28,
+                "2017-02-19": 26,
+              }
+            }
+            semana={3}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-02-12"
+                key="2017212"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-02-12"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-13"
+                key="2017213"
+                produtividade={10}
+              >
+                <div
+                  className="diario c10 "
+                  title="2017-02-13"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-14"
+                key="2017214"
+                produtividade={44}
+              >
+                <div
+                  className="diario c44 "
+                  title="2017-02-14"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-15"
+                key="2017215"
+                produtividade={47}
+              >
+                <div
+                  className="diario c47 "
+                  title="2017-02-15"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-16"
+                key="2017216"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-02-16"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-17"
+                key="2017217"
+                produtividade={27}
+              >
+                <div
+                  className="diario c27 "
+                  title="2017-02-17"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-18"
+                key="2017218"
+                produtividade={28}
+              >
+                <div
+                  className="diario c28 "
+                  title="2017-02-18"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+              ]
+            }
+            key="201724"
+            mes={2}
+            periodosSemana={
+              Object {
+                "2017-02-20": 12,
+                "2017-02-23": 20,
+                "2017-02-24": 46,
+                "2017-02-25": 37,
+              }
+            }
+            semana={4}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-02-19"
+                key="2017219"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-02-19"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-20"
+                key="2017220"
+                produtividade={12}
+              >
+                <div
+                  className="diario c12 "
+                  title="2017-02-20"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-21"
+                key="2017221"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-02-21"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-22"
+                key="2017222"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-02-22"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-23"
+                key="2017223"
+                produtividade={20}
+              >
+                <div
+                  className="diario c20 "
+                  title="2017-02-23"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-24"
+                key="2017224"
+                produtividade={46}
+              >
+                <div
+                  className="diario c46 "
+                  title="2017-02-24"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-25"
+                key="2017225"
+                produtividade={37}
+              >
+                <div
+                  className="diario c37 "
+                  title="2017-02-25"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                26,
+                27,
+                28,
+              ]
+            }
+            key="201725"
+            mes={2}
+            periodosSemana={
+              Object {
+                "2017-02-27": 37,
+              }
+            }
+            semana={5}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-02-26"
+                key="2017226"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-02-26"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-27"
+                key="2017227"
+                produtividade={37}
+              >
+                <div
+                  className="diario c37 "
+                  title="2017-02-27"
+                />
+              </Diario>
+              <Diario
+                date="2017-02-28"
+                key="2017228"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-02-28"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+        </div>
+      </Mensal>
+      <Mensal
+        ano="2017"
+        key="20173"
+        mes={3}
+        periodosMes={
+          Object {
+            "1": Object {
+              "2017-03-02": 30,
+              "2017-03-04": 1,
+            },
+            "2": Object {
+              "2017-03-07": 49,
+              "2017-03-10": 22,
+              "2017-03-11": 16,
+            },
+            "3": Object {
+              "2017-03-13": 34,
+              "2017-03-14": 6,
+              "2017-03-16": 46,
+              "2017-03-17": 28,
+              "2017-03-18": 50,
+              "2017-03-19": 8,
+            },
+            "4": Object {
+              "2017-03-20": 6,
+              "2017-03-21": 37,
+              "2017-03-24": 4,
+              "2017-03-25": 47,
+              "2017-03-26": 27,
+            },
+            "5": Object {
+              "2017-03-01": 6,
+              "2017-03-27": 48,
+              "2017-03-28": 18,
+              "2017-03-29": 32,
+              "2017-03-31": 32,
+            },
+          }
+        }
+      >
+        <div
+          className="mensal"
+        >
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                null,
+                null,
+                null,
+                1,
+                2,
+                3,
+                4,
+              ]
+            }
+            key="201731"
+            mes={3}
+            periodosSemana={
+              Object {
+                "2017-03-02": 30,
+                "2017-03-04": 1,
+              }
+            }
+            semana={1}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date={null}
+                key="201730.007921881275251508"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201730.059135447489097714"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201730.07656829222105443"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date="2017-03-01"
+                key="201731"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-03-01"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-02"
+                key="201732"
+                produtividade={30}
+              >
+                <div
+                  className="diario c30 "
+                  title="2017-03-02"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-03"
+                key="201733"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-03-03"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-04"
+                key="201734"
+                produtividade={1}
+              >
+                <div
+                  className="diario c1 "
+                  title="2017-03-04"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+              ]
+            }
+            key="201732"
+            mes={3}
+            periodosSemana={
+              Object {
+                "2017-03-07": 49,
+                "2017-03-10": 22,
+                "2017-03-11": 16,
+              }
+            }
+            semana={2}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-03-05"
+                key="201735"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-03-05"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-06"
+                key="201736"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-03-06"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-07"
+                key="201737"
+                produtividade={49}
+              >
+                <div
+                  className="diario c49 "
+                  title="2017-03-07"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-08"
+                key="201738"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-03-08"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-09"
+                key="201739"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-03-09"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-10"
+                key="2017310"
+                produtividade={22}
+              >
+                <div
+                  className="diario c22 "
+                  title="2017-03-10"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-11"
+                key="2017311"
+                produtividade={16}
+              >
+                <div
+                  className="diario c16 "
+                  title="2017-03-11"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+              ]
+            }
+            key="201733"
+            mes={3}
+            periodosSemana={
+              Object {
+                "2017-03-13": 34,
+                "2017-03-14": 6,
+                "2017-03-16": 46,
+                "2017-03-17": 28,
+                "2017-03-18": 50,
+                "2017-03-19": 8,
+              }
+            }
+            semana={3}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-03-12"
+                key="2017312"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-03-12"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-13"
+                key="2017313"
+                produtividade={34}
+              >
+                <div
+                  className="diario c34 "
+                  title="2017-03-13"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-14"
+                key="2017314"
+                produtividade={6}
+              >
+                <div
+                  className="diario c6 "
+                  title="2017-03-14"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-15"
+                key="2017315"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-03-15"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-16"
+                key="2017316"
+                produtividade={46}
+              >
+                <div
+                  className="diario c46 "
+                  title="2017-03-16"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-17"
+                key="2017317"
+                produtividade={28}
+              >
+                <div
+                  className="diario c28 "
+                  title="2017-03-17"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-18"
+                key="2017318"
+                produtividade={50}
+              >
+                <div
+                  className="diario c50 "
+                  title="2017-03-18"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+              ]
+            }
+            key="201734"
+            mes={3}
+            periodosSemana={
+              Object {
+                "2017-03-20": 6,
+                "2017-03-21": 37,
+                "2017-03-24": 4,
+                "2017-03-25": 47,
+                "2017-03-26": 27,
+              }
+            }
+            semana={4}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-03-19"
+                key="2017319"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-03-19"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-20"
+                key="2017320"
+                produtividade={6}
+              >
+                <div
+                  className="diario c6 "
+                  title="2017-03-20"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-21"
+                key="2017321"
+                produtividade={37}
+              >
+                <div
+                  className="diario c37 "
+                  title="2017-03-21"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-22"
+                key="2017322"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-03-22"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-23"
+                key="2017323"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-03-23"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-24"
+                key="2017324"
+                produtividade={4}
+              >
+                <div
+                  className="diario c4 "
+                  title="2017-03-24"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-25"
+                key="2017325"
+                produtividade={47}
+              >
+                <div
+                  className="diario c47 "
+                  title="2017-03-25"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+              ]
+            }
+            key="201735"
+            mes={3}
+            periodosSemana={
+              Object {
+                "2017-03-01": 6,
+                "2017-03-27": 48,
+                "2017-03-28": 18,
+                "2017-03-29": 32,
+                "2017-03-31": 32,
+              }
+            }
+            semana={5}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-03-26"
+                key="2017326"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-03-26"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-27"
+                key="2017327"
+                produtividade={48}
+              >
+                <div
+                  className="diario c48 "
+                  title="2017-03-27"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-28"
+                key="2017328"
+                produtividade={18}
+              >
+                <div
+                  className="diario c18 "
+                  title="2017-03-28"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-29"
+                key="2017329"
+                produtividade={32}
+              >
+                <div
+                  className="diario c32 "
+                  title="2017-03-29"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-30"
+                key="2017330"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-03-30"
+                />
+              </Diario>
+              <Diario
+                date="2017-03-31"
+                key="2017331"
+                produtividade={32}
+              >
+                <div
+                  className="diario c32 "
+                  title="2017-03-31"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+        </div>
+      </Mensal>
+      <Mensal
+        ano="2017"
+        key="20174"
+        mes={4}
+        periodosMes={
+          Object {
+            "1": Object {
+              "2017-04-02": 22,
+            },
+            "2": Object {
+              "2017-04-03": 25,
+              "2017-04-05": 13,
+              "2017-04-06": 50,
+              "2017-04-07": 2,
+              "2017-04-08": 32,
+              "2017-04-09": 33,
+            },
+            "3": Object {
+              "2017-04-10": 12,
+              "2017-04-11": 30,
+              "2017-04-12": 45,
+              "2017-04-13": 6,
+              "2017-04-15": 37,
+              "2017-04-16": 39,
+            },
+            "4": Object {
+              "2017-04-18": 46,
+              "2017-04-19": 41,
+              "2017-04-20": 28,
+              "2017-04-22": 38,
+              "2017-04-23": 43,
+            },
+            "5": Object {
+              "2017-04-24": 1,
+              "2017-04-25": 49,
+              "2017-04-26": 21,
+              "2017-04-27": 7,
+              "2017-04-30": 28,
+            },
+            "6": Object {
+              "2017-04-01": 38,
+            },
+          }
+        }
+      >
+        <div
+          className="mensal"
+        >
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                1,
+              ]
+            }
+            key="201741"
+            mes={4}
+            periodosSemana={
+              Object {
+                "2017-04-02": 22,
+              }
+            }
+            semana={1}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date={null}
+                key="201740.27307247649878263"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201740.49640615354292095"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201740.1477579902857542"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201740.08448594040237367"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201740.08264332986436784"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201740.051327843219041824"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date="2017-04-01"
+                key="201741"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-04-01"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+              ]
+            }
+            key="201742"
+            mes={4}
+            periodosSemana={
+              Object {
+                "2017-04-03": 25,
+                "2017-04-05": 13,
+                "2017-04-06": 50,
+                "2017-04-07": 2,
+                "2017-04-08": 32,
+                "2017-04-09": 33,
+              }
+            }
+            semana={2}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-04-02"
+                key="201742"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-04-02"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-03"
+                key="201743"
+                produtividade={25}
+              >
+                <div
+                  className="diario c25 "
+                  title="2017-04-03"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-04"
+                key="201744"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-04-04"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-05"
+                key="201745"
+                produtividade={13}
+              >
+                <div
+                  className="diario c13 "
+                  title="2017-04-05"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-06"
+                key="201746"
+                produtividade={50}
+              >
+                <div
+                  className="diario c50 "
+                  title="2017-04-06"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-07"
+                key="201747"
+                produtividade={2}
+              >
+                <div
+                  className="diario c2 "
+                  title="2017-04-07"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-08"
+                key="201748"
+                produtividade={32}
+              >
+                <div
+                  className="diario c32 "
+                  title="2017-04-08"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+              ]
+            }
+            key="201743"
+            mes={4}
+            periodosSemana={
+              Object {
+                "2017-04-10": 12,
+                "2017-04-11": 30,
+                "2017-04-12": 45,
+                "2017-04-13": 6,
+                "2017-04-15": 37,
+                "2017-04-16": 39,
+              }
+            }
+            semana={3}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-04-09"
+                key="201749"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-04-09"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-10"
+                key="2017410"
+                produtividade={12}
+              >
+                <div
+                  className="diario c12 "
+                  title="2017-04-10"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-11"
+                key="2017411"
+                produtividade={30}
+              >
+                <div
+                  className="diario c30 "
+                  title="2017-04-11"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-12"
+                key="2017412"
+                produtividade={45}
+              >
+                <div
+                  className="diario c45 "
+                  title="2017-04-12"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-13"
+                key="2017413"
+                produtividade={6}
+              >
+                <div
+                  className="diario c6 "
+                  title="2017-04-13"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-14"
+                key="2017414"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-04-14"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-15"
+                key="2017415"
+                produtividade={37}
+              >
+                <div
+                  className="diario c37 "
+                  title="2017-04-15"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+              ]
+            }
+            key="201744"
+            mes={4}
+            periodosSemana={
+              Object {
+                "2017-04-18": 46,
+                "2017-04-19": 41,
+                "2017-04-20": 28,
+                "2017-04-22": 38,
+                "2017-04-23": 43,
+              }
+            }
+            semana={4}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-04-16"
+                key="2017416"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-04-16"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-17"
+                key="2017417"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-04-17"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-18"
+                key="2017418"
+                produtividade={46}
+              >
+                <div
+                  className="diario c46 "
+                  title="2017-04-18"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-19"
+                key="2017419"
+                produtividade={41}
+              >
+                <div
+                  className="diario c41 "
+                  title="2017-04-19"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-20"
+                key="2017420"
+                produtividade={28}
+              >
+                <div
+                  className="diario c28 "
+                  title="2017-04-20"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-21"
+                key="2017421"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-04-21"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-22"
+                key="2017422"
+                produtividade={38}
+              >
+                <div
+                  className="diario c38 "
+                  title="2017-04-22"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+              ]
+            }
+            key="201745"
+            mes={4}
+            periodosSemana={
+              Object {
+                "2017-04-24": 1,
+                "2017-04-25": 49,
+                "2017-04-26": 21,
+                "2017-04-27": 7,
+                "2017-04-30": 28,
+              }
+            }
+            semana={5}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-04-23"
+                key="2017423"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-04-23"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-24"
+                key="2017424"
+                produtividade={1}
+              >
+                <div
+                  className="diario c1 "
+                  title="2017-04-24"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-25"
+                key="2017425"
+                produtividade={49}
+              >
+                <div
+                  className="diario c49 "
+                  title="2017-04-25"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-26"
+                key="2017426"
+                produtividade={21}
+              >
+                <div
+                  className="diario c21 "
+                  title="2017-04-26"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-27"
+                key="2017427"
+                produtividade={7}
+              >
+                <div
+                  className="diario c7 "
+                  title="2017-04-27"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-28"
+                key="2017428"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-04-28"
+                />
+              </Diario>
+              <Diario
+                date="2017-04-29"
+                key="2017429"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-04-29"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                30,
+              ]
+            }
+            key="201746"
+            mes={4}
+            periodosSemana={
+              Object {
+                "2017-04-01": 38,
+              }
+            }
+            semana={6}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-04-30"
+                key="2017430"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-04-30"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+        </div>
+      </Mensal>
+      <Mensal
+        ano="2017"
+        key="20175"
+        mes={5}
+        periodosMes={
+          Object {
+            "1": Object {
+              "2017-05-02": 27,
+              "2017-05-03": 23,
+              "2017-05-04": 43,
+              "2017-05-06": 1,
+              "2017-05-07": 8,
+            },
+            "2": Object {
+              "2017-05-08": 47,
+              "2017-05-09": 25,
+              "2017-05-10": 43,
+              "2017-05-11": 49,
+              "2017-05-12": 3,
+              "2017-05-14": 43,
+            },
+            "3": Object {
+              "2017-05-15": 15,
+              "2017-05-16": 48,
+              "2017-05-18": 43,
+              "2017-05-19": 9,
+              "2017-05-21": 35,
+            },
+            "4": Object {
+              "2017-05-23": 12,
+              "2017-05-24": 36,
+              "2017-05-25": 39,
+              "2017-05-26": 25,
+              "2017-05-27": 1,
+              "2017-05-28": 42,
+            },
+            "5": Object {
+              "2017-05-30": 18,
+              "2017-05-31": 44,
+            },
+            "6": Object {
+              "2017-05-01": 37,
+            },
+          }
+        }
+      >
+        <div
+          className="mensal"
+        >
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                null,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+              ]
+            }
+            key="201751"
+            mes={5}
+            periodosSemana={
+              Object {
+                "2017-05-02": 27,
+                "2017-05-03": 23,
+                "2017-05-04": 43,
+                "2017-05-06": 1,
+                "2017-05-07": 8,
+              }
+            }
+            semana={1}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date={null}
+                key="201750.23773689079098403"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date="2017-05-01"
+                key="201751"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-05-01"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-02"
+                key="201752"
+                produtividade={27}
+              >
+                <div
+                  className="diario c27 "
+                  title="2017-05-02"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-03"
+                key="201753"
+                produtividade={23}
+              >
+                <div
+                  className="diario c23 "
+                  title="2017-05-03"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-04"
+                key="201754"
+                produtividade={43}
+              >
+                <div
+                  className="diario c43 "
+                  title="2017-05-04"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-05"
+                key="201755"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-05-05"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-06"
+                key="201756"
+                produtividade={1}
+              >
+                <div
+                  className="diario c1 "
+                  title="2017-05-06"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+              ]
+            }
+            key="201752"
+            mes={5}
+            periodosSemana={
+              Object {
+                "2017-05-08": 47,
+                "2017-05-09": 25,
+                "2017-05-10": 43,
+                "2017-05-11": 49,
+                "2017-05-12": 3,
+                "2017-05-14": 43,
+              }
+            }
+            semana={2}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-05-07"
+                key="201757"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-05-07"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-08"
+                key="201758"
+                produtividade={47}
+              >
+                <div
+                  className="diario c47 "
+                  title="2017-05-08"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-09"
+                key="201759"
+                produtividade={25}
+              >
+                <div
+                  className="diario c25 "
+                  title="2017-05-09"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-10"
+                key="2017510"
+                produtividade={43}
+              >
+                <div
+                  className="diario c43 "
+                  title="2017-05-10"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-11"
+                key="2017511"
+                produtividade={49}
+              >
+                <div
+                  className="diario c49 "
+                  title="2017-05-11"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-12"
+                key="2017512"
+                produtividade={3}
+              >
+                <div
+                  className="diario c3 "
+                  title="2017-05-12"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-13"
+                key="2017513"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-05-13"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+              ]
+            }
+            key="201753"
+            mes={5}
+            periodosSemana={
+              Object {
+                "2017-05-15": 15,
+                "2017-05-16": 48,
+                "2017-05-18": 43,
+                "2017-05-19": 9,
+                "2017-05-21": 35,
+              }
+            }
+            semana={3}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-05-14"
+                key="2017514"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-05-14"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-15"
+                key="2017515"
+                produtividade={15}
+              >
+                <div
+                  className="diario c15 "
+                  title="2017-05-15"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-16"
+                key="2017516"
+                produtividade={48}
+              >
+                <div
+                  className="diario c48 "
+                  title="2017-05-16"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-17"
+                key="2017517"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-05-17"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-18"
+                key="2017518"
+                produtividade={43}
+              >
+                <div
+                  className="diario c43 "
+                  title="2017-05-18"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-19"
+                key="2017519"
+                produtividade={9}
+              >
+                <div
+                  className="diario c9 "
+                  title="2017-05-19"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-20"
+                key="2017520"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-05-20"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+              ]
+            }
+            key="201754"
+            mes={5}
+            periodosSemana={
+              Object {
+                "2017-05-23": 12,
+                "2017-05-24": 36,
+                "2017-05-25": 39,
+                "2017-05-26": 25,
+                "2017-05-27": 1,
+                "2017-05-28": 42,
+              }
+            }
+            semana={4}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-05-21"
+                key="2017521"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-05-21"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-22"
+                key="2017522"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-05-22"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-23"
+                key="2017523"
+                produtividade={12}
+              >
+                <div
+                  className="diario c12 "
+                  title="2017-05-23"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-24"
+                key="2017524"
+                produtividade={36}
+              >
+                <div
+                  className="diario c36 "
+                  title="2017-05-24"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-25"
+                key="2017525"
+                produtividade={39}
+              >
+                <div
+                  className="diario c39 "
+                  title="2017-05-25"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-26"
+                key="2017526"
+                produtividade={25}
+              >
+                <div
+                  className="diario c25 "
+                  title="2017-05-26"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-27"
+                key="2017527"
+                produtividade={1}
+              >
+                <div
+                  className="diario c1 "
+                  title="2017-05-27"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                28,
+                29,
+                30,
+                31,
+              ]
+            }
+            key="201755"
+            mes={5}
+            periodosSemana={
+              Object {
+                "2017-05-30": 18,
+                "2017-05-31": 44,
+              }
+            }
+            semana={5}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-05-28"
+                key="2017528"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-05-28"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-29"
+                key="2017529"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-05-29"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-30"
+                key="2017530"
+                produtividade={18}
+              >
+                <div
+                  className="diario c18 "
+                  title="2017-05-30"
+                />
+              </Diario>
+              <Diario
+                date="2017-05-31"
+                key="2017531"
+                produtividade={44}
+              >
+                <div
+                  className="diario c44 "
+                  title="2017-05-31"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+        </div>
+      </Mensal>
+      <Mensal
+        ano="2017"
+        key="20176"
+        mes={6}
+        periodosMes={
+          Object {
+            "1": Object {
+              "2017-06-02": 19,
+              "2017-06-03": 42,
+              "2017-06-04": 50,
+            },
+            "2": Object {
+              "2017-06-05": 13,
+              "2017-06-06": 32,
+              "2017-06-08": 48,
+            },
+            "6": Object {
+              "2017-06-01": 45,
+            },
+          }
+        }
+      >
+        <div
+          className="mensal"
+        >
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                null,
+                null,
+                null,
+                null,
+                1,
+                2,
+                3,
+              ]
+            }
+            key="201761"
+            mes={6}
+            periodosSemana={
+              Object {
+                "2017-06-02": 19,
+                "2017-06-03": 42,
+                "2017-06-04": 50,
+              }
+            }
+            semana={1}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date={null}
+                key="201760.32088871439918876"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201760.4790748730301857"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201760.6291774378623813"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date={null}
+                key="201760.9884555705357343"
+                produtividade={null}
+              >
+                <div
+                  className="diario cnull inactive"
+                  title={null}
+                />
+              </Diario>
+              <Diario
+                date="2017-06-01"
+                key="201761"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-01"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-02"
+                key="201762"
+                produtividade={19}
+              >
+                <div
+                  className="diario c19 "
+                  title="2017-06-02"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-03"
+                key="201763"
+                produtividade={42}
+              >
+                <div
+                  className="diario c42 "
+                  title="2017-06-03"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+              ]
+            }
+            key="201762"
+            mes={6}
+            periodosSemana={
+              Object {
+                "2017-06-05": 13,
+                "2017-06-06": 32,
+                "2017-06-08": 48,
+              }
+            }
+            semana={2}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-06-04"
+                key="201764"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-04"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-05"
+                key="201765"
+                produtividade={13}
+              >
+                <div
+                  className="diario c13 "
+                  title="2017-06-05"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-06"
+                key="201766"
+                produtividade={32}
+              >
+                <div
+                  className="diario c32 "
+                  title="2017-06-06"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-07"
+                key="201767"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-07"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-08"
+                key="201768"
+                produtividade={48}
+              >
+                <div
+                  className="diario c48 "
+                  title="2017-06-08"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-09"
+                key="201769"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-09"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-10"
+                key="2017610"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-10"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+              ]
+            }
+            key="201763"
+            mes={6}
+            periodosSemana={Object {}}
+            semana={3}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-06-11"
+                key="2017611"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-11"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-12"
+                key="2017612"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-12"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-13"
+                key="2017613"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-13"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-14"
+                key="2017614"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-14"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-15"
+                key="2017615"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-15"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-16"
+                key="2017616"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-16"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-17"
+                key="2017617"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-17"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+              ]
+            }
+            key="201764"
+            mes={6}
+            periodosSemana={Object {}}
+            semana={4}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-06-18"
+                key="2017618"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-18"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-19"
+                key="2017619"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-19"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-20"
+                key="2017620"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-20"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-21"
+                key="2017621"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-21"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-22"
+                key="2017622"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-22"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-23"
+                key="2017623"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-23"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-24"
+                key="2017624"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-24"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+          <Semanal
+            ano="2017"
+            dias={
+              Array [
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+              ]
+            }
+            key="201765"
+            mes={6}
+            periodosSemana={Object {}}
+            semana={5}
+          >
+            <div
+              className="semanal"
+            >
+              <Diario
+                date="2017-06-25"
+                key="2017625"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-25"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-26"
+                key="2017626"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-26"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-27"
+                key="2017627"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-27"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-28"
+                key="2017628"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-28"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-29"
+                key="2017629"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-29"
+                />
+              </Diario>
+              <Diario
+                date="2017-06-30"
+                key="2017630"
+                produtividade={0}
+              >
+                <div
+                  className="diario c0 "
+                  title="2017-06-30"
+                />
+              </Diario>
+            </div>
+          </Semanal>
+        </div>
+      </Mensal>
+    </div>
+  </Anual>
 </Grafico>
 `;
