@@ -1,0 +1,329 @@
+.grafico > div {
+  float: left; }
+  .grafico > div.label-semanas {
+    margin: 25px 20px 0 0; }
+    .grafico > div.label-semanas > div {
+      height: 10.5px;
+      font-size: 0.7em; }
+
+.anual,
+.mensal,
+.semanal {
+  overflow: auto;
+  float: left; }
+
+.mensal {
+  margin: 0 3px; }
+  .mensal .label-mes {
+    text-align: center;
+    color: #666;
+    height: 25px; }
+
+.diario {
+  height: 10px;
+  width: 10px;
+  margin: 1px;
+  overflow: auto;
+  border: 1px solid #eee; }
+  .diario.inactive {
+    background: #ddd; }
+
+.diario.c1 {
+  background: #cbf0ff; }
+
+.diario.c2 {
+  background: #c7efff; }
+
+.diario.c3 {
+  background: #c4eeff; }
+
+.diario.c4 {
+  background: #c0edff; }
+
+.diario.c5 {
+  background: #bdecff; }
+
+.diario.c6 {
+  background: #baebff; }
+
+.diario.c7 {
+  background: #b6eaff; }
+
+.diario.c8 {
+  background: #b3e9ff; }
+
+.diario.c9 {
+  background: #afe8ff; }
+
+.diario.c10 {
+  background: #ace7ff; }
+
+.diario.c11 {
+  background: #a9e6ff; }
+
+.diario.c12 {
+  background: #a5e5ff; }
+
+.diario.c13 {
+  background: #a2e4ff; }
+
+.diario.c14 {
+  background: #9ee3ff; }
+
+.diario.c15 {
+  background: #9be2ff; }
+
+.diario.c16 {
+  background: #98e1ff; }
+
+.diario.c17 {
+  background: #94e0ff; }
+
+.diario.c18 {
+  background: #91e0ff; }
+
+.diario.c19 {
+  background: #8ddfff; }
+
+.diario.c20 {
+  background: #8adeff; }
+
+.diario.c21 {
+  background: #87ddff; }
+
+.diario.c22 {
+  background: #83dcff; }
+
+.diario.c23 {
+  background: #80dbff; }
+
+.diario.c24 {
+  background: #7cdaff; }
+
+.diario.c25 {
+  background: #79d9ff; }
+
+.diario.c26 {
+  background: #76d8ff; }
+
+.diario.c27 {
+  background: #72d7ff; }
+
+.diario.c28 {
+  background: #6fd6ff; }
+
+.diario.c29 {
+  background: #6bd5ff; }
+
+.diario.c30 {
+  background: #68d4ff; }
+
+.diario.c31 {
+  background: #65d3ff; }
+
+.diario.c32 {
+  background: #61d2ff; }
+
+.diario.c33 {
+  background: #5ed1ff; }
+
+.diario.c34 {
+  background: #5ad0ff; }
+
+.diario.c35 {
+  background: #57cfff; }
+
+.diario.c36 {
+  background: #54ceff; }
+
+.diario.c37 {
+  background: #50cdff; }
+
+.diario.c38 {
+  background: #4dccff; }
+
+.diario.c39 {
+  background: #49cbff; }
+
+.diario.c40 {
+  background: #46caff; }
+
+.diario.c41 {
+  background: #43c9ff; }
+
+.diario.c42 {
+  background: #3fc8ff; }
+
+.diario.c43 {
+  background: #3cc7ff; }
+
+.diario.c44 {
+  background: #38c6ff; }
+
+.diario.c45 {
+  background: #35c5ff; }
+
+.diario.c46 {
+  background: #32c4ff; }
+
+.diario.c47 {
+  background: #2ec3ff; }
+
+.diario.c48 {
+  background: #2bc2ff; }
+
+.diario.c49 {
+  background: #27c1ff; }
+
+.diario.c50 {
+  background: #24c0ff; }
+
+.diario.c51 {
+  background: #21bfff; }
+
+.diario.c52 {
+  background: #1dbeff; }
+
+.diario.c53 {
+  background: #1abeff; }
+
+.diario.c54 {
+  background: #16bdff; }
+
+.diario.c55 {
+  background: #13bcff; }
+
+.diario.c56 {
+  background: #10bbff; }
+
+.diario.c57 {
+  background: #0cbaff; }
+
+.diario.c58 {
+  background: #09b9ff; }
+
+.diario.c59 {
+  background: #05b8ff; }
+
+.diario.c60 {
+  background: #02b7ff; }
+
+.diario.c61 {
+  background: #00b5fe; }
+
+.diario.c62 {
+  background: #00b3fa; }
+
+.diario.c63 {
+  background: #00b0f7; }
+
+.diario.c64 {
+  background: #00aef3; }
+
+.diario.c65 {
+  background: #00abf0; }
+
+.diario.c66 {
+  background: #00a9ed; }
+
+.diario.c67 {
+  background: #00a7e9; }
+
+.diario.c68 {
+  background: #00a4e6; }
+
+.diario.c69 {
+  background: #00a2e2; }
+
+.diario.c70 {
+  background: #009fdf; }
+
+.diario.c71 {
+  background: #009ddc; }
+
+.diario.c72 {
+  background: #009ad8; }
+
+.diario.c73 {
+  background: #0098d5; }
+
+.diario.c74 {
+  background: #0096d1; }
+
+.diario.c75 {
+  background: #0093ce; }
+
+.diario.c76 {
+  background: #0091cb; }
+
+.diario.c77 {
+  background: #008ec7; }
+
+.diario.c78 {
+  background: #008cc4; }
+
+.diario.c79 {
+  background: #0089c0; }
+
+.diario.c80 {
+  background: #0087bd; }
+
+.diario.c81 {
+  background: #0085ba; }
+
+.diario.c82 {
+  background: #0082b6; }
+
+.diario.c83 {
+  background: #0080b3; }
+
+.diario.c84 {
+  background: #007daf; }
+
+.diario.c85 {
+  background: #007bac; }
+
+.diario.c86 {
+  background: #0078a9; }
+
+.diario.c87 {
+  background: #0076a5; }
+
+.diario.c88 {
+  background: #0074a2; }
+
+.diario.c89 {
+  background: #00719e; }
+
+.diario.c90 {
+  background: #006f9b; }
+
+.diario.c91 {
+  background: #006c98; }
+
+.diario.c92 {
+  background: #006a94; }
+
+.diario.c93 {
+  background: #006791; }
+
+.diario.c94 {
+  background: #00658d; }
+
+.diario.c95 {
+  background: #00638a; }
+
+.diario.c96 {
+  background: #006087; }
+
+.diario.c97 {
+  background: #005e83; }
+
+.diario.c98 {
+  background: #005b80; }
+
+.diario.c99 {
+  background: #00597c; }
+
+.diario.c100 {
+  background: #005679; }
