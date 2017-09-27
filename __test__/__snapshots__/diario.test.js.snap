@@ -7,7 +7,9 @@ exports[`Componente Diário Deve renderizar adequadamente 1`] = `
 >
   <div
     className="diario c1 "
-    title="2016-10-12"
+    data-placement="bottom"
+    data-toggle="tooltip"
+    title="1 contribuições em 12/10/2016"
   />
 </Diario>
 `;

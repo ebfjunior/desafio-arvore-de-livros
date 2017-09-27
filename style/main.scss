@@ -1,25 +1,46 @@
-.anual,.mensal,.semanal,.diario{
-  overflow: auto;
-}
-.diario{
-  height: 15px;
-  width: 15px;
-  margin: 1px;
+.grafico > div {
   float: left;
+
+  &.label-semanas {
+    margin: 25px 20px 0 0;
+
+    & > div {
+      height: 10.5px;
+      font-size: 0.7em;
+    }
+  }
+}
+
+.anual,
+.mensal,
+.semanal {
+  overflow: auto;
+  float: left;
+}
+.mensal {
+  margin: 0 3px;
+
+  .label-mes {
+    text-align: center;
+    color: #666;
+    height: 25px;
+  }
+}
+.diario {
+  height: 10px;
+  width: 10px;
+  margin: 1px;
+  overflow: auto;
   border: 1px solid #eee;
 
-  &.inactive{
+  &.inactive {
     background: #ddd;
   }
 }
 
-$base-color: #CEF1FF;
+$base-color: #cef1ff;
 @for $i from 1 through 100 {
   .diario.c#{$i} {
     background: darken($base-color, $i/1.5);
   }
-}
-
-.diario.44{
-  background: #bbb;
 }

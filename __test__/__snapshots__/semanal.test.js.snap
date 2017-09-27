@@ -32,7 +32,9 @@ exports[`Componente Semanal Deve renderizar adequadamente 1`] = `
     >
       <div
         className="diario c0 "
-        title="2016-10-09"
+        data-placement="bottom"
+        data-toggle="tooltip"
+        title="0 contribuições em 9/10/2016"
       />
     </Diario>
     <Diario
@@ -42,7 +44,9 @@ exports[`Componente Semanal Deve renderizar adequadamente 1`] = `
     >
       <div
         className="diario c0 "
-        title="2016-10-10"
+        data-placement="bottom"
+        data-toggle="tooltip"
+        title="0 contribuições em 10/10/2016"
       />
     </Diario>
     <Diario
@@ -52,7 +56,9 @@ exports[`Componente Semanal Deve renderizar adequadamente 1`] = `
     >
       <div
         className="diario c0 "
-        title="2016-10-11"
+        data-placement="bottom"
+        data-toggle="tooltip"
+        title="0 contribuições em 11/10/2016"
       />
     </Diario>
     <Diario
@@ -62,7 +68,9 @@ exports[`Componente Semanal Deve renderizar adequadamente 1`] = `
     >
       <div
         className="diario c1 "
-        title="2016-10-12"
+        data-placement="bottom"
+        data-toggle="tooltip"
+        title="1 contribuições em 12/10/2016"
       />
     </Diario>
     <Diario
@@ -72,7 +80,9 @@ exports[`Componente Semanal Deve renderizar adequadamente 1`] = `
     >
       <div
         className="diario c0 "
-        title="2016-10-13"
+        data-placement="bottom"
+        data-toggle="tooltip"
+        title="0 contribuições em 13/10/2016"
       />
     </Diario>
     <Diario
@@ -82,7 +92,9 @@ exports[`Componente Semanal Deve renderizar adequadamente 1`] = `
     >
       <div
         className="diario c0 "
-        title="2016-10-14"
+        data-placement="bottom"
+        data-toggle="tooltip"
+        title="0 contribuições em 14/10/2016"
       />
     </Diario>
     <Diario
@@ -92,7 +104,9 @@ exports[`Componente Semanal Deve renderizar adequadamente 1`] = `
     >
       <div
         className="diario c0 "
-        title="2016-10-15"
+        data-placement="bottom"
+        data-toggle="tooltip"
+        title="0 contribuições em 15/10/2016"
       />
     </Diario>
   </div>
